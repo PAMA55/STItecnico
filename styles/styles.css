@@ -1,0 +1,200 @@
+body{
+    font-family: "Akzidenz-Grotesk BQ";
+    margin: 0;
+}
+
+::placeholder{
+    color: #0A333D;
+}
+
+#bloque1{
+    display: flex;
+    height: 100vh;
+}
+
+#bloque1-img{
+    padding: 3em;
+    width: 66%;
+    background: url('../resources/imagen-attraction.png') no-repeat left fixed;
+    background-size: 66%;
+    color: white;
+}
+
+#b1-img1{
+    
+}
+
+#b1-img2{
+    height: 5vh;
+}
+
+#b1-img3{
+    
+}
+
+#bloque1-form{
+    /* display: flex;
+    flex-direction: column; */
+    color: #0A333D;
+    width: 33%;
+    background-color: #BDCCC7;
+    padding: 5% 3%;
+}
+
+#bloque1-form p{
+    font-size: 2.2em;
+    margin: 0;
+}
+
+#bloque1-form img{
+    margin: 2em 0;
+}
+
+#bloque1-form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.b1-input{
+    margin-bottom: 1.5em;
+    padding: 8px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #0A333D;
+}
+
+#brochureform{
+    cursor: pointer;
+    color: white;
+    background-color: #0A333D;
+    border: none;
+    padding: .8em;
+}
+
+.check{
+    font-size: .8em;
+    cursor: pointer;
+}
+
+#bloque2{
+    display: flex;
+    height: 35vh;
+}
+
+#b2-content{
+    display: flex;
+    padding: 2%;
+}
+
+#carrousel{
+    display: flex;
+    justify-content: center;
+}
+
+#icon-sep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bloque3{
+    color: white;
+    gap: 5vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#bloque3 div{
+    height: 20%;
+    width: 18%;
+}
+
+#b3-sec1{
+    background-image: url('../resources/b3-sec1img.png');
+}
+
+#b3-sec2{
+    background-image: url('../resources/b3-sec2img.png');
+}
+
+#b3-sec3{
+    background-image: url('../resources/b3-sec3img.png');
+}
+
+#b3-sec4{
+    background-image: url('../resources/b3-sec4img.png');
+}
+
+
+#icon-sep{
+    height: 35vh;
+}
+
+#bloque4{
+    color: #0A333D;
+}
+
+#bloque5{
+    color: white;
+    height: 75vh;
+    background-image: url('../resources/imgbloque5.png');
+}
+
+#b5-content{
+    padding: 10vh 8vw;
+}
+
+#b4-sec1{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    padding: 3vw;
+}
+
+#b4-sec2{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    padding: 3vw;
+}
+
+#b4-sec3{
+    display: flex;
+    flex-direction: row;
+    height: 75vh;
+    padding: 3vw;
+}
+
+
+#maps{
+    align-items: center;
+    height: 75vh;
+    background-image: url('../resources/imgmaps.png');
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 10vh;
+    background-color: #0A333D;
+    justify-content: space-between;
+}
+
+#footer-content{
+    margin: 8px;
+}
+
+#footer-content p{
+    margin: 0;
+}
+
+#namelogo-footer{
+    height: 24px;
+}
+
+#socialmediaicons{
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
