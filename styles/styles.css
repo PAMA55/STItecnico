@@ -10,11 +10,13 @@ body{
 .a-azul{
     color: #158977;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 
 .a-blanco{
     color: white;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 
 #bloque1{
@@ -41,15 +43,15 @@ body{
 }
 
 #b1-p1{
-    font-size: 2.5em;
+    font-size: 2.5vw;
 }
 
 #b1-p2{
-    font-size: 1.2em;
+    font-size: 1.4vw;
 }
 
 #b1-p3{
-    font-size: 1.2em;
+    font-size: 1.4vw;
 }
 
 #b1-p3 img{
@@ -67,7 +69,7 @@ body{
 }
 
 #bloque1-form p{
-    font-size: 2.2em;
+    font-size: 2.5vw;
     margin: 0;
 }
 
@@ -89,7 +91,7 @@ body{
 }
 
 #brochureform{
-    font-size: 1.1em;
+    font-size: 1.4vw;
     cursor: pointer;
     color: white;
     background-color: #0A333D;
@@ -101,7 +103,7 @@ body{
     display: flex;
     align-items: center;
     margin-bottom: 1em;
-    font-size: .8em;
+    font-size: .8vw;
     cursor: pointer;
 }
 
@@ -117,12 +119,13 @@ body{
 
 #b2-title p{
     width: 50%;
-    font-size: 2em;
+    font-size: 2.2vw;
     margin: 1em auto;
     align-items: center;
 }
 
 #b2-sub{
+    font-size: 1.2vw;
     width: 50%;
     padding: .3em;
 }
@@ -138,6 +141,10 @@ body{
 #carrousel{
     display: flex;
     justify-content: center;
+}
+
+#carrousel img{
+    height: 80vh;
 }
 
 #icon-sep{
@@ -165,12 +172,12 @@ body{
 }
 
 .b3-sec-t{
-    font-size: 4.2em;
+    font-size: 4.4vw;
     margin: 0;
 }
 
 .b3-sec-s{
-    font-size: 1.2em;
+    font-size: 1.4vw;
 }
 
 #b3-sec1{
@@ -229,11 +236,11 @@ body{
 }
 
 .b4-sec-t{
-    font-size: 2.2em;
+    font-size: 2.4vw;
 }
 
 .b4-sec-s{
-    font-size: 1em;
+    font-size: 1.2vw;
     padding-right: 12em;
 }
 
@@ -253,18 +260,24 @@ body{
 
 .b5-con-t{
     margin: 0;
-    font-size: 2em;
+    font-size: 2.2vw;
 }
 
 .b5-con-s{
-    font-size: 1em;
+    font-size: 1.2vw;
     padding-right: 50vw;
 }
 
 #maps{
+    display: flex;
+    justify-content: center;
     align-items: center;
     height: 75vh;
     background-image: url('../resources/imgmaps.png');
+}
+
+#maps img{
+    height: 25vh;
 }
 
 #footer{
@@ -283,11 +296,11 @@ body{
 
 #footer-content p{
     margin: 0;
-    font-size: .7em;
+    font-size: .7vw;
 }
 
 #namelogo-footer{
-    height: 24px;
+    height: 4vh;
 }
 
 #socialmediaicons{
