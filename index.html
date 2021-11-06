@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="resources/fonts/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -12,19 +13,21 @@
             <img id="b1-img1" src="resources/EN.png" alt=""><br>
             <img id="b1-img2" src="resources/ESTELAbco.png" alt=""><br>
             <img id="b1-img3" src="resources/lineabco.png" alt="">
-            <p>El nuevo icono de negocios de Culiacán</p>
-            <p>El proyecto incorpora un concepto inmobiliario absolutamente nuevo simbiosis de diseño y tecnología</p>
-            <p>Reproducir video</p>
+            <p id="b1-p1">El nuevo <br> icono de negocios <br> de Culiacán</p>
+            <p id="b1-p2">El proyecto incorpora un concepto inmobiliario <br> absolutamente nuevo simbiosis de <br> diseño y tecnología</p>
+            <p id="b1-p3">Reproducir video
+                <span><img src="resources/b1arrow.png" alt=""></span>
+            </p>
         </div>
         <div id="bloque1-form">
             <p>¿Quieres saber más?<br>Recibe a tu correo nuestro brochure</p>
             <img src="resources/lineaazul.png" alt="">
-            <form action="">
-                <input type="text" class="b1-input" placeholder="Nombre*">
-                <input type="number" class="b1-input" placeholder="Teléfono">
-                <input type="email" class="b1-input" placeholder="Correo electrónico*">
+            <form id="formnewsletter">
+                <input type="text" class="b1-input" placeholder="Nombre*" name="nombre">
+                <input type="number" class="b1-input" placeholder="Teléfono" name="telefono">
+                <input type="email" class="b1-input" placeholder="Correo electrónico*" name="email">
                 <div class="check">
-                    <input type="checkbox" id="checknewsletter">
+                    <input type="checkbox" id="checknewsletter" name="newsletter">
                     <label for="checknewsletter">Quiero recibir noticias, novedades y ofertas especiales a mi correo</label>
                 </div>
                 <input type="submit" id="brochureform" value="Quiero recibir el brochure">
@@ -41,7 +44,7 @@
                 <p>
                     proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvalía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad
                 </p>
-                <a href="">Entérate mas sobre el proyecto -></a>
+                <a class="a-azul" href="">Entérate mas sobre el proyecto -></a>
             </div>
         </div>
     </div>
@@ -56,52 +59,52 @@
 
     <div id="bloque3">
         <div id="b3-sec1">
-            <p>42,452</p>
-            <p>m2 rentables de oficinas</p>
+            <p class="b3-sec-t">42,452</p>
+            <p class="b3-sec-s">m2 rentables de oficinas</p>
         </div>
         <div id="b3-sec2">
-            <p>1,346</p>
-            <p>cajones de estacionamiento</p>
+            <p class="b3-sec-t">1,346</p>
+            <p class="b3-sec-s">cajones de estacionamiento</p>
         </div>
         <div id="b3-sec3">
-            <p>11</p>
-            <p>niveles de estacionamiento</p>
+            <p class="b3-sec-t">11</p>
+            <p class="b3-sec-s">niveles de estacionamiento</p>
         </div>
         <div id="b3-sec4">
-            <p>6</p>
-            <p>penthouses en total con terraza</p>
+            <p class="b3-sec-t">6</p>
+            <p class="b3-sec-s">penthouses en total con terraza</p>
         </div>
     </div>
 
     <div id="bloque4">
         <div id="b4-sec1">
-            <div>
+            <div class="b4-secimg">
                 <img src="resources/b4-sec1img.png" alt="">
             </div>
-            <div>
-                <p>Titulo Oficinas</p>
-                <p>Proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvaía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad</p>
-                <a href="">Entérate mas sobre el proyecto -></a>
+            <div class="b4-sectext">
+                <p class="b4-sec-t">Titulo Oficinas</p>
+                <p class="b4-sec-s">Proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvaía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad</p>
+                <a class="a-azul" href="">Entérate mas sobre el proyecto -></a>
             </div>
         </div>
         <div id="b4-sec2">
-            <div>
-                <p>Locales comerciales</p>
-                <p>Proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvaía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad</p>
-                <a href="">Entérate mas sobre el proyecto -></a>
+            <div class="b4-sectext">
+                <p class="b4-sec-t">Locales comerciales</p>
+                <p class="b4-sec-s">Proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvaía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad</p>
+                <a class="a-azul" href="">Entérate mas sobre el proyecto -></a>
             </div>
-            <div>
+            <div class="b4-secimg">
                 <img src="resources/b4-sec2img.png" alt="">
             </div>
         </div>
         <div id="b4-sec3">
-            <div>
+            <div class="b4-secimg">
                 <img src="resources/b4-sec3img.png" alt="">
             </div>
-            <div>
-                <p>Penthouses</p>
-                <p>Proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvaía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad</p>
-                <a href="">Entérate mas sobre el proyecto -></a>
+            <div class="b4-sectext">
+                <p class="b4-sec-t">Penthouses</p>
+                <p class="b4-sec-s">Proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvaía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad</p>
+                <a class="a-azul" href="">Entérate mas sobre el proyecto -></a>
             </div>
         </div>
     </div>
@@ -109,12 +112,12 @@
     <div id="bloque5">
         <div id="b5-content">
             <img src="resources/logoiconbco.png" alt=""><br>
-            <img src="resources/lineabco.png" alt="">
-            <p>Creando el futuro</p>
-            <p>
+            <img id="b5-line" src="resources/lineabco.png" alt="">
+            <p class="b5-con-t">Creando el futuro</p>
+            <p class="b5-con-s">
                 Proyecto exclusivo de oficinas corporativas en renta y venta del Noroeste del país. Ubicado en la zona con más crecimiento y plusvaía en la ciudad de Culiacán. Diseñado bajo las mas estrictas y vanguardistas especificaciones de eficiencia y modernidad
             </p>
-            <a href="">Entérate mas sobre el proyecto -></a>
+            <a class="a-blanco" href="">Entérate mas sobre el proyecto -></a>
         </div>
     </div>
 
@@ -125,7 +128,7 @@
     <div id="footer">
         <div id="footer-content">
             <img id="namelogo-footer" src="resources/ESTELAbco.png" alt="">
-            <p>2019 estela corporate center</p>
+            <p>™2019 estela corporate center</p>
         </div>
         <div id="socialmediaicons">
             <div>
@@ -137,4 +140,71 @@
         </div>
     </div>
 </body>
+
+<script>
+    $("#formnewsletter").submit(function(event){
+        event.preventDefault();
+        
+        if(!$('[name="nombre"]').val()){
+            alert("Nombre requerido");
+            return;
+        } else {
+            var nombre = document.getElementsByName("nombre")[0];
+        }
+
+        /*
+        if($('td[name="telefono"]').val()){
+            var tel = $('td[name="telefono"]');
+            console.log(tel);
+            if(tel.length != 10){
+                alert("Solo se admiten telefonos de 10 digitos");
+            }
+        }
+        */
+
+        var tel = document.getElementsByName("telefono")[0];
+        if(tel.value != null){
+            if(tel.value.length > 10){
+                alert("Ingrese un telefono con máximo 10 digitos");
+                return;
+            }
+        }
+        
+        var email = $('[name="email"]').val();
+        if(!email){
+            alert("Correo requerido");
+            return;
+        }
+
+        var newsletter = $('[name="newsletter"]').prop("checked");
+
+        var toSend = new FormData();
+            toSend.append("nombre", nombre.value);
+            toSend.append("telefono", tel.value);
+            toSend.append("email", email);
+            toSend.append("newsletter", newsletter);
+
+        fetch("http://localhost:8080/formscript.php", {
+            method: "POST",
+            mode: "cors",
+            body: toSend,
+        })
+        .then(response => response.json())
+        .then(data => handleResponse(data));
+    });
+
+    function handleResponse(data){
+        alert(data['text']);
+        if(data['text'] == "Datos guardados"){
+            var form = document.getElementById("formnewsletter");
+            form.remove();
+            var requestWS = document.createElement("p");
+            requestWS.innerHTML = "Respuesta al numero aleatorio:";
+            var textResult = document.createElement("p");
+            textResult.innerHTML = data['0'];
+            document.getElementById("bloque1-form").appendChild(requestWS);
+            document.getElementById("bloque1-form").appendChild(textResult);
+        }
+    }
+</script>
 </html>
