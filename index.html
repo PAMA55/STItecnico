@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
+    <meta charset="UTF-8">
+    <title>Estela</title>
+    <link rel="icon" href="resources/logoicon.png">
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="resources/fonts/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -13,7 +17,7 @@
             <img id="b1-img1" src="resources/EN.png" alt=""><br>
             <img id="b1-img2" src="resources/ESTELAbco.png" alt=""><br>
             <img id="b1-img3" src="resources/lineabco.png" alt="">
-            <p id="b1-p1">El nuevo <br> icono de negocios <br> de Culiacán</p>
+            <p id="b1-p1">El nuevo <br> ícono de negocios <br> de Culiacán</p>
             <p id="b1-p2">El proyecto incorpora un concepto inmobiliario <br> absolutamente nuevo simbiosis de <br> diseño y tecnología</p>
             <p id="b1-p3">Reproducir video
                 <span><img src="resources/b1arrow.png" alt=""></span>
@@ -136,7 +140,6 @@
             <img id="namelogo-footer" src="resources/twiticon.png" alt="">
             <img id="namelogo-footer" src="resources/instaicon.png" alt="">
             </div>
-            
         </div>
     </div>
 </body>
@@ -152,20 +155,10 @@
             var nombre = document.getElementsByName("nombre")[0];
         }
 
-        /*
-        if($('td[name="telefono"]').val()){
-            var tel = $('td[name="telefono"]');
-            console.log(tel);
-            if(tel.length != 10){
-                alert("Solo se admiten telefonos de 10 digitos");
-            }
-        }
-        */
-
         var tel = document.getElementsByName("telefono")[0];
         if(tel.value != null){
             if(tel.value.length > 10){
-                alert("Ingrese un telefono con máximo 10 digitos");
+                alert("Ingrese un teléfono con máximo 10 digitos");
                 return;
             }
         }
@@ -194,7 +187,10 @@
     });
 
     function handleResponse(data){
+            /**  ALERT SUCCESS  **/
         alert(data['text']);
+
+            /**  HIDE FORM AND SHOW RESPONSE FROM WEBSERVICE  **/
         if(data['text'] == "Datos guardados"){
             var form = document.getElementById("formnewsletter");
             form.remove();
@@ -207,4 +203,5 @@
         }
     }
 </script>
+
 </html>
