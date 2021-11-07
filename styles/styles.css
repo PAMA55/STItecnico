@@ -34,7 +34,7 @@ body{
 
 #b1-img1{
     height: 2.5em;
-    margin-bottom: 4em;
+    margin-bottom: 4vh;
 }
 
 #b1-img2{
@@ -84,7 +84,7 @@ body{
 
 .b1-input{
     margin-bottom: 1.5em;
-    padding: 8px;
+    padding: 1vh;
     border: none;
     background-color: transparent;
     border-bottom: 1px solid #0A333D;

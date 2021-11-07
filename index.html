@@ -177,12 +177,13 @@
             toSend.append("email", email);
             toSend.append("newsletter", newsletter);
 
-        fetch("http://localhost:8080/formscript.php", {
+        fetch("http://localhost:80/formscript.php", {
             method: "POST",
             mode: "cors",
             body: toSend,
         })
         .then(response => response.json())
+        .catch(error => alert("Favor de verificar los datos, nombre con maximo 75 caracteres, teléfono solo con numeros (maximo 10 digitos) y correo con formato valido"))
         .then(data => handleResponse(data));
     });
 

@@ -3,6 +3,7 @@
 Test tecnico
 
 Abrir en navegador el archivo index.html<br>
+-Asignar la direccion y puerto en la url (fetch en final de etiqueta script)
 <br>
 Base de datos<br>
 -Ejecutar en MySQL Workbench o manejador de BD utilizado el archivo BDscript.sql<br>
